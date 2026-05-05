@@ -77,19 +77,18 @@ Customize the color scheme by modifying CSS variables in `styles.css`:
 
 The portfolio includes two form web components - choose the one that fits your needs:
 
-**Form Option 1: Minimalist Contact Form (Default)**
-
-The template uses the [minimalist-contact-form](https://github.com/DevManSam777/minimalist-contact-form) web component by default. This is a clean, simple contact form perfect for basic inquiries with fields for name, email, phone, and message.
-
-- **GitHub:** https://github.com/DevManSam777/minimalist-contact-form
+- **GitHub:** https://github.com/DevManSam777/forms
 - **Customization:** See the README in the repo for full list of customizable attributes
+
+**Form Option 1: Short Contact Form (Default)**
+
+The template uses the [short contact form](https://github.com/DevManSam777/forms) web component by default. This is a clean, simple contact form perfect for basic inquiries with fields for name, email, phone, and message.
+
 
 **Form Option 2: Full Web Inquiry Form**
 
-For more detailed project inquiries, you can switch to the [web-inquiry-form](https://github.com/DevManSam777/web_inquiry_form) component. This includes additional fields for budget, timeline, project type, and more detailed project information.
+For more detailed project inquiries, you can switch to the [web-inquiry-form](https://github.com/DevManSam777/forms) component. This includes additional fields for budget, timeline, project type, and more detailed project information.
 
-- **GitHub:** https://github.com/DevManSam777/web_inquiry_form
-- **Customization:** See the README in the repo for full list of customizable attributes
 
 **Switching Between Forms:**
 
@@ -181,6 +180,7 @@ Feel free to clone this project and make it your own! If you find bugs or have s
 ![Minimalist Contact Form - Light Mode](./assets/light_contact_form.png)
 ![Minimalist Contact Form - Dark Mode](./assets/dark_contact_form.png)
 ![Web Inquiry Form - Light Mode](./assets/light_web_inquiry_form.png)
+![Footer Section - Light Mode](./assets/footer.png)
 ![Web Inquiry Form - Dark Mode](./assets/dark_web_inquiry_form.png)
 ![Footer Section - Dark Mode](./assets/footer_dark.png)
 
