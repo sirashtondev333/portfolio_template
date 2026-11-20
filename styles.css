@@ -931,3 +931,12 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+.skills-tags {
+  justify-content: center;
+}
+
+.skills-tags .tech-tag {
+  font-size: 0.95rem;
+  padding: 0.4rem 1rem;
+}
