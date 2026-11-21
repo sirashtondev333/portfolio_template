@@ -7,23 +7,24 @@
 
 :root {
   /* Light theme colors */
-  --primary-color: #2563eb;
-  --secondary-color: #1e40af;
-  --accent-color: #f59e0b;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --bg-light: #e1ebff;
+  --primary-color: #22577a;
+  --secondary-color: #57cc99;
+  --accent-color: #38a3a5;
+  --text-dark: #237b64;
+  --text-light: #22577a;
+  /* --bg-light: #e1ebff; */
+  --bg-light: #ecf1ec; 
   --bg-white: #fafafa;
   --border-color: #e5e7eb;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  --footer-bg: #1f2937;
-  --footer-text: #9ca3af;
+  --footer-bg: #29237b;
+  --footer-text: #cacaca;
 }
 
 [data-theme="dark"] {
   /* Dark theme colors */
-  --primary-color: #3b82f6;
+  --primary-color: #29237b;
   --secondary-color: #2563eb;
   --accent-color: #fbbf24;
   --text-dark: #f9fafb;
@@ -939,4 +940,9 @@ section {
 .skills-tags .tech-tag {
   font-size: 0.95rem;
   padding: 0.4rem 1rem;
+}
+
+/* Let the skills section be only as tall as its content */
+.skills {
+  min-height: auto;
 }
