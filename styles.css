@@ -35,7 +35,8 @@
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
   --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
   --footer-bg: #0f172a;
-  --footer-text: #64748b;
+  /* --footer-text: #64748b; */
+  --tag-color: #7a5ac0;
 }
 
 body {
