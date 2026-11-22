@@ -40,7 +40,7 @@
 }
 
 body {
-font-family: "Karla", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Work Sans", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-dark);
   background: var(--bg-light);
@@ -962,12 +962,12 @@ section {
   }
 }
 
-/* Fonts: Young Serif for headings, Karla for body */
+/* Fonts: Fraunces for headings, Work Sans for body */
 h1,
 h2,
 h3,
 .hero-content h1,
 .section-title h2 {
-  font-family: "Young Serif", Georgia, serif;
-  font-weight: 400;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
 }
