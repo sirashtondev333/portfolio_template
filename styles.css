@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
+font-family: "Karla", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-dark);
   background: var(--bg-light);
@@ -946,4 +946,28 @@ section {
 /* Let the skills section be only as tall as its content */
 .skills {
   min-height: auto;
+}
+
+.hero-interests {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: -1.5rem 0 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero-interests {
+    margin: -1.5rem auto 2.5rem;
+  }
+}
+
+/* Fonts: Young Serif for headings, Karla for body */
+h1,
+h2,
+h3,
+.hero-content h1,
+.section-title h2 {
+  font-family: "Young Serif", Georgia, serif;
+  font-weight: 400;
 }
