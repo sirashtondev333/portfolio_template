@@ -8,9 +8,9 @@
 :root {
   /* Light theme colors */
   --primary-color: #22577a;
-  --secondary-color: #57cc99;
-  --accent-color: #38a3a5;
-  --text-dark: #237b64;
+  --secondary-color: #2c7f81; /* was #57cc99: too light for white button text (WCAG) */
+  --accent-color: #2c7f81; /* was #38a3a5: heading gradient end was 2.64:1, needs 3:1 */
+  --text-dark: #1f6f5a; /* was #237b64: nav links were 4.49:1, need 4.5:1 */
   --text-light: #22577a;
   /* --bg-light: #e1ebff; */
   --bg-light: #ecf1ec; 
@@ -24,7 +24,7 @@
 
 [data-theme="dark"] {
   /* Dark theme colors */
-  --primary-color: #29237b;
+  --primary-color: #a99cf0; /* was #29237b: 1.37:1 on the dark background; lavender is 7.35:1 */
   --secondary-color: #2563eb;
   --accent-color: #57cc99;
   --text-dark: #f9fafb;
@@ -970,4 +970,32 @@ h3,
 .section-title h2 {
   font-family: "Fraunces", Georgia, serif;
   font-weight: 600;
+}
+
+/* Accessibility quick fix (WCAG AA contrast) for dark mode:
+   the primary color is now a light lavender, so solid shapes with white text
+   need a darker fill of their own. */
+[data-theme="dark"] .btn-primary {
+  background: #29237b; /* white text on it: 12.96:1 */
+}
+
+[data-theme="dark"] .btn-primary:hover {
+  background: var(--secondary-color);
+}
+
+[data-theme="dark"] .tech-tag {
+  background: var(--tag-color, #29237b); /* violet, white text: 5.18:1 */
+}
+
+/* Footer: let its contents use the full width on large screens,
+   so the copyright sits near the left edge and the icons near the right. */
+.footer .container {
+  max-width: none;
+  padding: 0 3rem;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    padding: 0 1rem;
+  }
 }
